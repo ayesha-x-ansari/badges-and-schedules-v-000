@@ -13,11 +13,8 @@ badge_maker(name)
 def batch_badge_creator(speakers)
   speaker_badge_array = []
   speakers.each do   |speaker|
-    puts "2222222222222222"
     speaker_badge_array   <<  "Hello, my name is #{speaker}."
-    puts "33333333333"
   end
-  puts "dddddddddddddddddd"
   speaker_badge_array
 end
 
@@ -31,9 +28,7 @@ end
 
 def printer(speakers)
   batch_badge_creator(speakers).each do |badge|
-    puts "1111111111111111"
     puts badge
-    puts "4444444444444444"
  end
 
   assign_rooms(speakers).each do |room_assignment|
