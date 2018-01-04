@@ -1,6 +1,5 @@
 
-#speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-speakers = ["Edsger", "Ada"]
+speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 speaker_badge_array = []
 speaker_room_assignment = []
 name = " "
